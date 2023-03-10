@@ -1,0 +1,19 @@
+.formHello{
+    @apply absolute h-full w-3/5 bg-blue-470 min-h-[550px] flex items-center
+}
+
+.wsLogo{
+    @apply font-algerian text-[6vw] text-center text-white
+}
+
+.rect{
+    @apply border-b border-[1vh] border-white w-[11vw]
+}
+
+.text{
+    @apply text-center text-white text-[4vw] font-montserrat
+}
+
+.contact{
+    @apply !absolute !bg-blue-470 !ml-3 !mt-3 !border-solid !border-white !border-4 !rounded-2xl !text-white !font-bold !text-vw1
+}

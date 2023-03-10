@@ -1,0 +1,37 @@
+.buttonsBox{
+    @apply !h-[30px] !w-full !-mt-7
+}
+
+.editBtn{
+    @apply !mt-[2px] !h-6 !border-none !left-[calc(100%-290px)]
+}
+
+.editIcon{
+    @apply !w-4 !h-4
+}
+
+.saveBtn{
+    @apply !mt-[2px] !h-6 !border-none !left-[calc(100%-290px)] !text-xs !text-slate-500
+}
+
+.markdownBox{
+    @apply !h-[calc(95vh-90px)] !max-w-full !min-h-[530px] !p-0
+}
+
+.helpModalWindow{
+    @apply !absolute !top-1/2 !left-1/2 !-translate-x-1/2 !-translate-y-1/2 !w-3/4 !h-4/5
+    !bg-white !border-4 !border-blue-470 !rounded-xl !outline-none !px-10 !py-10
+}
+
+.example{
+    @apply rounded-md text-black px-2.5 py-3.5 relative shadow-neutral-900
+    bg-slate-200
+}
+
+.helpBtn{
+    @apply !mt-[3px] !absolute !h-6 !border-none !text-xs !text-slate-500
+}
+
+.helpIcon{
+    @apply !h-[15px] !w-[15px] !text-slate-500
+}

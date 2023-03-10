@@ -1,0 +1,46 @@
+.spaceName{
+    @apply text-center text-xl text-slate-500
+}
+
+.spaceBtn{
+    @apply !min-w-full !text-left !h-9 !justify-start !text-slate-500 !normal-case
+}
+
+.openFolderIcon{
+    @apply !text-slate-500 !h-5 !w-5
+}
+
+.iconContextMenu{
+    @apply !h-4 !w-4 !text-slate-500
+}
+
+.btnContextMenu{
+    @apply !text-xs !text-slate-500 !w-full !justify-start
+}
+
+.notSave{
+    @apply !absolute !bottom-0 !text-white !mb-2
+}
+
+.modalWindowNotSave{
+    @apply !absolute !top-1/2 !left-1/2 !-translate-x-1/2 !-translate-y-1/2
+    !w-[400px] !h-32 !bg-blue-470 !border-solid !border-4 !border-white
+    !rounded-2xl !shadow-md
+}
+
+.modalWindowEditOrAdd{
+    @apply !absolute !top-1/2 !left-1/2 !-translate-x-1/2 !-translate-y-1/2
+    !w-[340px] !h-40 !bg-blue-470 !border-solid !border-4 !border-white
+    !rounded-2xl !shadow-md
+}
+
+.addSpaceOrPage{
+    @apply !w-[300px] !h-8 !bg-blue-470 !border-solid !border-4 !border-white
+    !rounded-md !outline-none !ml-4 !mt-4 !text-white !pl-2
+    focus:border-indigo-500
+    placeholder:text-white/[0.8] font-bold
+}
+
+.addOrEditBtn{
+    @apply !absolute !bottom-0 !right-3 !text-white !font-bold !text-[15px] !mb-1
+}

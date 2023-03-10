@@ -1,0 +1,23 @@
+.size{
+    @apply min-h-[600px] min-w-[1000px]
+}
+
+.header{
+    @apply !absolute !h-[60px] !w-full !bg-blue-470 !min-h-[40px] !min-w-[1000px]
+}
+
+.iconMenu{
+    @apply !mt-0 !w-10 !h-10 !text-white
+}
+
+.wsLogoMain{
+    @apply font-algerian text-5xl text-center text-white mt-2
+}
+
+.rectMain{
+    @apply border-b border-[3px] border-white w-24
+}
+
+.noteBtn{
+    @apply !w-full !py-0 !text-slate-500 !text-base
+}

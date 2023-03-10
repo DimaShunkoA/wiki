@@ -1,0 +1,17 @@
+.formInput{
+    @apply absolute h-full w-2/5 bg-blue-450 min-h-[550px] right-0 flex items-center
+}
+
+.styleBut{
+    @apply !border-solid !border-white !border-4 !rounded-2xl !bg-blue-450 !text-white !font-bold !text-vw1
+}
+
+.input{
+    @apply bg-blue-450 border-solid border-white rounded-2xl outline-none py-4 px-5 w-[25vw] h-[7vh] border-[0.3vw] min-h-min min-w-min text-white text-[1.1vmax] mx-8
+    focus:border-indigo-500
+    placeholder:text-white font-bold
+}
+
+.textError{
+    @apply text-red-600 text-[1vw] text-center font-bold
+}
